@@ -6,14 +6,15 @@ import lombok.NoArgsConstructor;
 
 import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
+import org.springframework.data.annotation.TypeAlias;
 import org.springframework.data.mongodb.core.mapping.Document;
-
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.Date;
 
 @Data
-@Document(collection = "Publicaciones")
+@Document("Publicaciones")
+@TypeAlias("Publicacion")
 @AllArgsConstructor
 @NoArgsConstructor
 public class PublicacionModel {

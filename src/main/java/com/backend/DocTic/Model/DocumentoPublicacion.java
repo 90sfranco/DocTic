@@ -5,16 +5,19 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import org.bson.types.ObjectId;
+import org.springframework.data.mongodb.core.mapping.Document;
 
+import com.backend.DocTic.Model.ENUM.EstadoDocumento;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+@Document
 public class DocumentoPublicacion {
     private ObjectId documentoId;
     private String nombre;
-    private String estado; 
+    private EstadoDocumento estado; 
 
     @JsonProperty("documentoId")
     public String getDocumentoIdAsHexString() {
