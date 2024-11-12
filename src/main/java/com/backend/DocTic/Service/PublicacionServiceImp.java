@@ -28,7 +28,6 @@ public class PublicacionServiceImp implements IPublicacionService{
         return publicacionEncontrada.orElseThrow(()-> new RecursoNoEncontradoException("No se encontró la publicación con ID "+id+" por favor verificar el ID"));
     }
 
-
     @Override
     public List<PublicacionModel> obtenerPublicaciones() {
         return repository.findAll();
