@@ -12,4 +12,8 @@ public interface IPublicacionService {
     PublicacionModel obtenerPublicacion(ObjectId id);
 
     List<PublicacionModel> obtenerPublicaciones();
+
+    PublicacionModel actualizarPublicacion(PublicacionModel publicacion);
+
+    String eliminarPublicacion(ObjectId id);
 }
