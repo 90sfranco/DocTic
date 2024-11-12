@@ -7,7 +7,7 @@ import com.backend.DocTic.Model.PublicacionModel;
 import com.backend.DocTic.Repository.IPublicacionRepository;
 
 @Service
-public class IPublicacionServiceImp implements IPublicacionService{
+public class PublicacionServiceImp implements IPublicacionService{
     @Autowired
     IPublicacionRepository repository;
 
