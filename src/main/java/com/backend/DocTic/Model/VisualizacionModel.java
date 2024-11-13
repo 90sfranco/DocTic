@@ -12,6 +12,13 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.Date;
 
+/**
+ * Clase VisualizacionModel (12/11/2024): Modelo de datos para representar una visualización de un documento en la colección "Visualizaciones" 
+ * de MongoDB, que incluye un identificador único (id), fecha de visualización (fecha), hora de visualización (hora), el usuario que visualizó 
+ * el documento (usuario) y el documento visualizado (documento). La anotación @JsonProperty permite que el id se devuelva en formato hexadecimal 
+ * en las respuestas JSON.
+ */
+
 @Data
 @Document(collection = "Visualizaciones")
 @AllArgsConstructor
