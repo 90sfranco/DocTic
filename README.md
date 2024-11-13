@@ -57,6 +57,3 @@ Para más detalles sobre las consultas realizadas y su implementación, consulta
 
 1. Realiza consultas en MongoDB para obtener análisis de popularidad, opiniones mixtas, y otras estadísticas.
 2. Gestiona los documentos, usuarios y categorías directamente desde la base de datos o mediante postman.
----
-
-**Nota**: Para obtener más detalles sobre las consultas específicas implementadas en el sistema, consulta el [documento de consultas en Google Docs](https://docs.google.com/document/d/1LAxwvMZnJH3SKNu27BQD3i5ePWEj5jyYX0q3xzPuiQE/edit?tab=t.0).
