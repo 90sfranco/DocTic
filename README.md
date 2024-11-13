@@ -43,11 +43,11 @@ Al abrir este archivo en Hackolade, se puede visualizar y documentar el diseño 
 
 ## Consultas Destacadas
 
-Se han implementado varias consultas avanzadas para obtener información detallada sobre el uso y la interacción con los documentos. Estas incluyen:
+Se han implementado varias consultas avanzadas para obtener información detallada sobre el uso y la interacción con los documentos. 
 
-1. **Documentos con Opiniones Mixtas y Populares**: Consulta para encontrar documentos que han recibido tanto valoraciones positivas (>= 4) como negativas (<= 2) y que tienen un número de visualizaciones superior a un umbral específico. Esta consulta es útil para identificar documentos controversiales que generan debate.
+Estas consultas de MongoDB utilizan agregaciones para obtener información clave de la base de datos, permitiendo analizar el comportamiento y las preferencias de los usuarios en una plataforma de documentos. La mayoría de estas consultas buscan patrones de popularidad y calidad, como la identificación de las categorías de documentos más vistas, descargadas o valoradas, tanto en general como por regiones específicas, lo que facilita el ajuste del contenido a las demandas del público. Además, algunas consultas rastrean interacciones específicas, como la relación entre descargas y valoraciones de calidad, usuarios activos que no participan en publicaciones, y documentos populares que generan opiniones mixtas, útil para evaluar el impacto y la controversia del contenido.
 
-2. **Documentos con Descargas Superiores al Promedio**: Consulta para listar documentos que tienen un número de descargas superior al promedio general de descargas. Esto permite destacar los documentos más populares.
+Estas consultas ofrecen una funcionalidad robusta para gestionar y mejorar la experiencia del usuario en la plataforma, proporcionando estadísticas sobre el uso y el impacto del contenido. Esto permite tomar decisiones informadas, como mejorar la visibilidad de ciertos documentos, identificar usuarios influyentes, o detectar contenido que podría requerir promoción adicional o mejoras en su calidad.
 
 Para más detalles sobre las consultas realizadas y su implementación, consulta el siguiente enlace: [Consultas en Google Docs](https://docs.google.com/document/d/1LAxwvMZnJH3SKNu27BQD3i5ePWEj5jyYX0q3xzPuiQE/edit?tab=t.0).
 
