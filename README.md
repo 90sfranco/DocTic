@@ -42,10 +42,6 @@ Se han implementado varias consultas avanzadas para obtener información detalla
 
 Para más detalles sobre las consultas realizadas y su implementación, consulta el siguiente enlace: [Consultas en Google Docs](https://docs.google.com/document/d/1LAxwvMZnJH3SKNu27BQD3i5ePWEj5jyYX0q3xzPuiQE/edit?tab=t.0).
 
-## Requisitos
-
-- MongoDB Compass: Utilizado para almacenar y gestionar los datos del sistema.
-- Node.js y MongoDB Shell (si se realizan consultas avanzadas en línea de comandos).
 
 ## Instalación
 
