@@ -14,6 +14,14 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.Date;
 import java.util.List;
 
+/**
+ * Clase DocumentoModel (12/11/2024): Modelo de datos para representar un documento en la colección "Documentos" de MongoDB,
+ * con un identificador único (id), descripción breve del contenido (descripcion), nombre del documento (nombre), URL de acceso 
+ * (url), estado de publicación (estado), fecha de publicación (fechaPub), una lista de categorías asociadas (categoriasArr) y 
+ * una lista de identificadores de autores (autoresArr). La anotación @JsonProperty permite que el id se devuelva en formato 
+ * hexadecimal en las respuestas JSON.
+ */
+
 @Data
 @Document(collection = "Documentos")
 @AllArgsConstructor
