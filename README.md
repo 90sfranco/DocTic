@@ -4,8 +4,8 @@ Este proyecto, **DocTic**, es un sistema de gestión de documentos que permite a
 
 ## Funcionalidades Principales
 
-1. **Gestión de Documentos**: Permite agregar, editar y eliminar documentos, cada uno de los cuales puede tener una descripción, una URL, un estado de visibilidad (público o privado), y pertenecer a una o varias categorías.
-2. **Visualización de Documentos**: Los usuarios pueden visualizar documentos, y el sistema lleva un registro de cada visualización.
+1. **Gestión de Documentos**: Permite agregar, editar y eliminar documentos, cada uno de los cuales puede tener una descripción, una URL, un estado de visibilidad (público o privado), y pertenecer a una categoría.
+2. **Visualización de Documentos**: Los usuarios pueden visualizar y descargar documentos, el sistema lleva un registro de cada visualización y descarga.
 3. **Valoración de Documentos**: Los usuarios pueden valorar documentos con un puntaje, permitiendo opiniones mixtas y evaluaciones que reflejan la relevancia del contenido.
 4. **Comentarios y Debates**: El sistema permite agregar comentarios a los documentos, fomentando la discusión y el debate en torno a los contenidos.
 5. **Consultas Personalizadas**: La plataforma incluye varias consultas personalizadas para obtener información sobre el uso de los documentos, opiniones de los usuarios, y popularidad de los documentos.
