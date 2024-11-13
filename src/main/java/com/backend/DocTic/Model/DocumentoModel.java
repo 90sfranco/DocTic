@@ -8,6 +8,7 @@ import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import com.backend.DocTic.Model.ENUM.EstadoDocumento;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.Date;
@@ -23,7 +24,7 @@ public class DocumentoModel {
     private String descripcion;
     private String nombre;
     private String url;
-    private String estado; 
+    private EstadoDocumento estado; 
     private Date fechaPub;
     private List<CategoriaDocumento> categoriasArr;
     private List<ObjectId> autoresArr; 

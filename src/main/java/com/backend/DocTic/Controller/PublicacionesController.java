@@ -31,8 +31,13 @@ public class PublicacionesController {
         try {
             return new ResponseEntity<String>(service.insertarPublicacion(publicacion), HttpStatus.CREATED);
             
-        } catch (Exception e) {
-            return new ResponseEntity<String>("Ocurrió un error al insertar la publicación: "+ e.getMessage().toString(), HttpStatus.INTERNAL_SERVER_ERROR);
+        } catch (RuntimeException e) {
+            if (e.getClass() == NullPointerException.class) {
+                return new ResponseEntity<String>("¡Error! La información del usuario es incorrecta.", HttpStatus.INTERNAL_SERVER_ERROR);
+                
+            }else{
+                return new ResponseEntity<String>("Ocurrió un error al insertar la publicación: "+ e.getMessage().toString(), HttpStatus.INTERNAL_SERVER_ERROR);
+            }
         }
     }
 

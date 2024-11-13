@@ -32,7 +32,7 @@ public class ComentarioController {
             return new ResponseEntity<String>(service.insertarComentario(comentario), HttpStatus.CREATED);
         }
         catch (Exception e){
-            return new ResponseEntity<>("Ocurrió un error al insertar el comentario"+ e.getMessage().toString(),HttpStatus.INTERNAL_SERVER_ERROR);
+            return new ResponseEntity<>("Ocurrió un error al insertar el comentario: "+ e.getMessage().toString(),HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
 

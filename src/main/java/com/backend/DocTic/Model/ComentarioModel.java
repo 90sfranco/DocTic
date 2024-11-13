@@ -24,7 +24,7 @@ public class ComentarioModel {
     private String comentario;
     private ObjectId comPadreId;
     private ObjectId usuarioId; 
-    private ObjectId documento; 
+    private ObjectId documentoId; 
 
     @JsonProperty("id")
     public String getIdAsHexString() {
