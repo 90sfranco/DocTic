@@ -32,6 +32,15 @@ Para más detalles sobre las colecciones y consultas, revisa los archivos almace
 
 El modelo entidad-relación para este proyecto está diseñado en Hackolade, donde se detalla la estructura y relaciones entre las colecciones. También puedes encontrar el archivo en la carpeta de Google Drive mencionada.
 
+Este archivo de Hackolade define el modelo de datos para la base de datos del proyecto DocTic. Contiene la estructura de las colecciones como Usuarios, Documentos y Comentarios, especificando los campos y tipos de datos que cada una maneja. Asimismo, el modelo incluye subdocumentos y listas que organizan la información relacionada dentro de los documentos de cada colección. A través de claves foráneas, establece relaciones entre colecciones, facilitando conexiones entre los datos como por ejemplo la asociación de documentos a usuarios o la asignación de comentarios a documentos específicos. Estas definiciones ayudan a garantizar la integridad de los datos mediante reglas de validación, como campos obligatorios y tipos de datos requeridos.
+
+Al abrir este archivo en Hackolade, se puede visualizar y documentar el diseño de la base de datos a través de diagramas. Estos muestran de manera gráfica la estructura y las relaciones entre las colecciones.
+
+
+
+
+
+
 ## Consultas Destacadas
 
 Se han implementado varias consultas avanzadas para obtener información detallada sobre el uso y la interacción con los documentos. Estas incluyen:
